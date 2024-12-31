@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className="mb-20 flex items-center justify-between py-6">
             <div className="flex items-center">
-                <p className="mx-2 text-3xl cursor-default">VW</p>
+                {/* <p className="mx-2 text-3xl cursor-default">VW</p> */}
             </div>
             <div className="flex items-center gap-4 text-2xl">
                 <a
