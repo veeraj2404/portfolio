@@ -45,6 +45,7 @@ export const PROJECTS = [
     title: "ChatVerse",
     date: "Dec 2024 - Jan 2025",
     image: chatverse,
+    link: "https://github.com/veeraj2404/chatverse",
     description:
       "ChatVerse is a MERN real-time chat application, ensures instant communication with robust WebSocket integration, secure messaging, and a dynamic UI.",
     technologies: ["React", "Tailwind", "Daisy UI", "Node.js", "mongoDB", "Socket.io"],
@@ -53,6 +54,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     date: "Dec 2024",
     image: portfolio,
+    link: "https://github.com/veeraj2404/portfolio",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind", "Framer Motion"],
@@ -61,6 +63,7 @@ export const PROJECTS = [
     title: "Gemini AI Chatbot",
     date: "Oct 2024 - Nov 2024",
     image: geminiai,
+    link: "https://github.com/veeraj2404/gemini-ai",
     description:
       `Developed a Gemini AI API Integration Project with
       a seamless React.js frontend and Node.js backend
@@ -72,6 +75,7 @@ export const PROJECTS = [
     title: "Forever Clone",
     date: "Jul 2024 - Sept 2024",
     image: foreverclone,
+    link: "https://github.com/veeraj2404/Ecommerce-app",
     description:
       `The e-commerce application provides a complete shopping experience
        with product browsing, cart management, and secure payment processing.
@@ -83,6 +87,7 @@ export const PROJECTS = [
     title: "CSV Manager",
     date: "Mar 2024",
     image: csvmanager,
+    link: "https://github.com/veeraj2404/csv_manager",
     description:
       `Developed an application for importing, editing, and
       exporting CSV files with a modular design and an
@@ -95,6 +100,7 @@ export const PROJECTS = [
   //   title: "E-Commerce Web Services",
   //   date: "Oct 2022",
   //   image: project4,
+  //   link: "https://github.com/veeraj2404/ecommerce",
   //   description:
   //     `The E-commerce Web Services Spring Boot
   //     application efficiently handles product browsing,
