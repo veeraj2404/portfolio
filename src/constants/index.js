@@ -4,13 +4,23 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Software Developer with 2 years of expertise in crafting and deploying
-innovative web applications across a diverse tech stack. Demonstrating
-proficiency in building responsive user interfaces, creating robust APIs, and
-effective collaboration within cross-functional teams. Eager to join a forwardthinking organization where I can expand my knowledge and gain practical
-exposure, contributing to both organizational and personal growth.
+  innovative web applications across a diverse tech stack. Demonstrating
+  proficiency in building responsive user interfaces, creating robust APIs, and
+  effective collaboration within cross-functional teams. Eager to join a forwardthinking organization where I can expand my knowledge and gain practical
+  exposure, contributing to both organizational and personal growth.
 `;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `
+  A dedicated Software Developer with expertise in building intuitive, 
+  responsive interfaces, and developing secure, scalable solutions for web applications. 
+  I excel in full-stack development, API integration, and implementing features 
+  like user authentication and payment gateways. I am passionate about leveraging 
+  modern technologies to create innovative solutions that enhance user experience and 
+  drive business growth. With a strong focus on clean code and performance optimization, 
+  I aim to deliver robust applications that meet both client and user needs effectively. 
+  Continuously learning and adapting to new trends, 
+  I strive to stay ahead of the curve in an ever-evolving technology landscape.
+`;
 
 export const EXPERIENCES = [
   {
@@ -18,18 +28,26 @@ export const EXPERIENCES = [
     role: "Senior Analyst",
     company: "Capgemini",
     description: `Gained hands-on experience in front-end development, focusing on designing and implementing user-friendly, responsive interfaces compatible across various devices and browsers. Developed and maintained dynamic single-page applications (SPAs) using ReactJS, consistently meeting project timelines. Implemented robust user authentication and authorization features to enhance application security. Integrated RESTful APIs to efficiently fetch and present data, ensuring a seamless and intuitive user experience.`,
-    technologies: ["Javascript", "React.js", "Node.js", "mongoDB"],
+    technologies: ["Javascript", "React", "Node.js", "mongoDB"],
   },
   {
     year: "Jan 2022 - Jun 2022",
     role: "Software Developer Intern",
     company: "Digiklug Solution LLP",
     description: `Developed end-to-end solutions for full-stack web applications, utilizing React.js, Node.js, and Express.js for both frontend and backend development. Created responsive user interfaces with HTML5, CSS3, and JavaScript frameworks like React.js and AngularJS, while implementing database interactions and data modeling with MongoDB. Led seamless integration of major payment gateways, such as Stripe, ensuring secure and efficient transaction processing.`,
-    technologies: ["HTML", "CSS", "JS", "Node.js", "mongoDB", "React.js", "Angular.js"],
+    technologies: ["HTML", "CSS", "JS", "Node.js", "mongoDB", "React", "Angular.js"],
   }
 ];
 
 export const PROJECTS = [
+  {
+    title: "ChatVerse",
+    date: "Dec 2024 - Jan 2025",
+    image: project3,
+    description:
+      "ChatVerse is a MERN real-time chat application, ensures instant communication with robust WebSocket integration, secure messaging, and a dynamic UI.",
+    technologies: ["React", "Tailwind", "Daisy UI", "Node.js", "mongoDB", "Socket.io"],
+  },
   {
     title: "Portfolio Website",
     date: "Dec 2024",
