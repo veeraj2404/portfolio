@@ -36,10 +36,10 @@ export default function Projects() {
                                     <span className='mb-2 font-light text-sm text-neutral-400'>{" "} {"("} {project.date} {")"}</span>
                                 </h6>
                                 <a href={project.link} target='_blank' rel='noreferrer' >
-                                    <FaExternalLinkAlt className='mt-1 ml-4 cursor-pointer' />
+                                    <FaExternalLinkAlt className='mt-1 ml-2 cursor-pointer' />
                                 </a>
                             </div>
-                            <p className='mb-4 text-neutral-400 text-justify'>{project.description}</p>
+                            <p className='mb-4 text-neutral-400 '>{project.description}</p>
                             {project.technologies.map((tech, index) => (
                                 <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">{tech}</span>
                             ))}

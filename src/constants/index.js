@@ -29,14 +29,14 @@ export const EXPERIENCES = [
     role: "Senior Analyst",
     company: "Capgemini",
     description: `Gained hands-on experience in front-end development, focusing on designing and implementing user-friendly, responsive interfaces compatible across various devices and browsers. Developed and maintained dynamic single-page applications (SPAs) using ReactJS, consistently meeting project timelines. Implemented robust user authentication and authorization features to enhance application security. Integrated RESTful APIs to efficiently fetch and present data, ensuring a seamless and intuitive user experience.`,
-    technologies: ["Javascript", "React", "Node.js", "mongoDB"],
+    technologies: ["MERN", "SQL", "Java", "Spring Boot"],
   },
   {
     year: "Jan 2022 - Jun 2022",
     role: "Software Developer Intern",
-    company: "Digiklug Solution LLP",
+    company: "Digiklug Solutions LLP",
     description: `Developed end-to-end solutions for full-stack web applications, utilizing React.js, Node.js, and Express.js for both frontend and backend development. Created responsive user interfaces with HTML5, CSS3, and JavaScript frameworks like React.js and AngularJS, while implementing database interactions and data modeling with MongoDB. Led seamless integration of major payment gateways, such as Stripe, ensuring secure and efficient transaction processing.`,
-    technologies: ["HTML", "CSS", "JS", "Node.js", "mongoDB", "React", "Angular.js"],
+    technologies: ["MERN", "MEAN", "Stripe"],
   }
 ];
 
@@ -48,7 +48,7 @@ export const PROJECTS = [
     link: "https://github.com/veeraj2404/chatverse",
     description:
       "ChatVerse is a MERN real-time chat application, ensures instant communication with robust WebSocket integration, secure messaging, and a dynamic UI.",
-    technologies: ["React", "Tailwind", "Daisy UI", "Node.js", "mongoDB", "Socket.io"],
+    technologies: ["MERN", "Tailwind", "Daisy UI", "Socket.io"],
   },
   {
     title: "Portfolio Website",
@@ -56,7 +56,7 @@ export const PROJECTS = [
     image: portfolio,
     link: "https://github.com/veeraj2404/portfolio",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal portfolio website showcasing experience, projects, skills, and contact information.",
     technologies: ["React", "Tailwind", "Framer Motion"],
   },
   {
