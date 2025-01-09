@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import chatverse from "../assets/projects/chatverse.jpeg";
+import portfolio from "../assets/projects/portfolio.jpeg";
+import geminiai from "../assets/projects/geminiaai.jpeg";
+import foreverclone from "../assets/projects/foreverclone.jpeg";
+import csvmanager from "../assets/projects/csvmanager.jpeg";
 
 export const HERO_CONTENT = `Software Developer with 2 years of expertise in crafting and deploying
   innovative web applications across a diverse tech stack. Demonstrating
@@ -43,7 +44,7 @@ export const PROJECTS = [
   {
     title: "ChatVerse",
     date: "Dec 2024 - Jan 2025",
-    image: project3,
+    image: chatverse,
     description:
       "ChatVerse is a MERN real-time chat application, ensures instant communication with robust WebSocket integration, secure messaging, and a dynamic UI.",
     technologies: ["React", "Tailwind", "Daisy UI", "Node.js", "mongoDB", "Socket.io"],
@@ -51,7 +52,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     date: "Dec 2024",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind", "Framer Motion"],
@@ -59,7 +60,7 @@ export const PROJECTS = [
   {
     title: "Gemini AI Chatbot",
     date: "Oct 2024 - Nov 2024",
-    image: project1,
+    image: geminiai,
     description:
       `Developed a Gemini AI API Integration Project with
       a seamless React.js frontend and Node.js backend
@@ -70,7 +71,7 @@ export const PROJECTS = [
   {
     title: "Forever Clone",
     date: "Jul 2024 - Sept 2024",
-    image: project3,
+    image: foreverclone,
     description:
       `The e-commerce application provides a complete shopping experience
        with product browsing, cart management, and secure payment processing.
@@ -81,7 +82,7 @@ export const PROJECTS = [
   {
     title: "CSV Manager",
     date: "Mar 2024",
-    image: project2,
+    image: csvmanager,
     description:
       `Developed an application for importing, editing, and
       exporting CSV files with a modular design and an
@@ -90,18 +91,18 @@ export const PROJECTS = [
       `,
     technologies: ["React", "Bootstrap", "mongoDB", "Node.js"],
   },
-  {
-    title: "E-Commerce Web Services",
-    date: "Oct 2022",
-    image: project4,
-    description:
-      `The E-commerce Web Services Spring Boot
-      application efficiently handles product browsing,
-      ordering, and payment processing for a seamless
-      online transaction experience.
-      `,
-    technologies: ["Spring Boot", "JDBC", "Hibernate", "mySQL"],
-  },
+  // {
+  //   title: "E-Commerce Web Services",
+  //   date: "Oct 2022",
+  //   image: project4,
+  //   description:
+  //     `The E-commerce Web Services Spring Boot
+  //     application efficiently handles product browsing,
+  //     ordering, and payment processing for a seamless
+  //     online transaction experience.
+  //     `,
+  //   technologies: ["Spring Boot", "JDBC", "Hibernate", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
