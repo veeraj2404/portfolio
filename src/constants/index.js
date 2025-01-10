@@ -4,23 +4,24 @@ import geminiai from "../assets/projects/geminiaai.jpeg";
 import foreverclone from "../assets/projects/foreverclone.jpeg";
 import csvmanager from "../assets/projects/csvmanager.jpeg";
 
-export const HERO_CONTENT = `Software Developer with 2 years of expertise in crafting and deploying
-  innovative web applications across a diverse tech stack. Demonstrating
-  proficiency in building responsive user interfaces, creating robust APIs, and
-  effective collaboration within cross-functional teams. Eager to join a forwardthinking organization where I can expand my knowledge and gain practical
-  exposure, contributing to both organizational and personal growth.
+export const HERO_CONTENT = `
+  Software Developer with 2 years of expertise in designing 
+  and deploying innovative web applications across a diverse tech stack. 
+  Proficient in building responsive user interfaces, creating robust APIs, 
+  and collaborating effectively within cross-functional teams. 
+  Eager to join a forward-thinking organization where I can expand my 
+  knowledge and gain practical exposure, contributing to both organizational and personal growth.
 `;
 
 export const ABOUT_TEXT = `
   A dedicated Software Developer with expertise in building intuitive, 
-  responsive interfaces, and developing secure, scalable solutions for web applications. 
-  I excel in full-stack development, API integration, and implementing features 
-  like user authentication and payment gateways. I am passionate about leveraging 
-  modern technologies to create innovative solutions that enhance user experience and 
-  drive business growth. With a strong focus on clean code and performance optimization, 
-  I aim to deliver robust applications that meet both client and user needs effectively. 
-  Continuously learning and adapting to new trends, 
-  I strive to stay ahead of the curve in an ever-evolving technology landscape.
+  responsive interfaces and developing secure, scalable solutions for web applications. 
+  I excel in full-stack development, API integration, and implementing features such as 
+  user authentication and payment gateways. Passionate about leveraging modern technologies 
+  to create innovative solutions that enhance user experience and drive business growth, 
+  I maintain a strong focus on clean code and performance optimization. 
+  My goal is to deliver robust applications that effectively meet both client and user needs. 
+  Continuously learning and adapting to new trends, I strive to stay ahead in an ever-evolving technology landscape.
 `;
 
 export const EXPERIENCES = [
@@ -28,26 +29,26 @@ export const EXPERIENCES = [
     year: "Aug 2022 - Present",
     role: "Senior Analyst",
     company: "Capgemini",
-    description: `Gained hands-on experience in front-end development, focusing on designing and implementing user-friendly, responsive interfaces compatible across various devices and browsers. Developed and maintained dynamic single-page applications (SPAs) using ReactJS, consistently meeting project timelines. Implemented robust user authentication and authorization features to enhance application security. Integrated RESTful APIs to efficiently fetch and present data, ensuring a seamless and intuitive user experience.`,
+    description: `Gained hands-on experience in front-end development, focusing on designing and implementing user-friendly, responsive interfaces compatible with various devices and browsers. Developed and maintained dynamic single-page applications (SPAs) using ReactJS, consistently meeting project deadlines. Implemented robust user authentication and authorization features to enhance application security. Integrated RESTful APIs to efficiently fetch and display data, ensuring a seamless and intuitive user experience.`,
     technologies: ["MERN", "SQL", "Java", "Spring Boot"],
   },
   {
     year: "Jan 2022 - Jun 2022",
     role: "Software Developer Intern",
     company: "Digiklug Solutions LLP",
-    description: `Developed end-to-end solutions for full-stack web applications, utilizing React.js, Node.js, and Express.js for both frontend and backend development. Created responsive user interfaces with HTML5, CSS3, and JavaScript frameworks like React.js and AngularJS, while implementing database interactions and data modeling with MongoDB. Led seamless integration of major payment gateways, such as Stripe, ensuring secure and efficient transaction processing.`,
+    description: `Developed end-to-end solutions for full-stack web applications, utilizing React.js, Node.js, and Express.js for both frontend and backend development. Created responsive user interfaces using HTML5, CSS3, and JavaScript frameworks like React.js and AngularJS, while implementing database interactions and data modeling with MongoDB. Led the seamless integration of major payment gateways, such as Stripe, ensuring secure and efficient transaction processing.`,
     technologies: ["MERN", "MEAN", "Stripe"],
   }
 ];
 
 export const PROJECTS = [
   {
-    title: "ChatVerse",
+    title: "Chatverse",
     date: "Dec 2024 - Jan 2025",
     image: chatverse,
     link: "https://github.com/veeraj2404/chatverse",
     description:
-      "ChatVerse is a MERN real-time chat application, ensures instant communication with robust WebSocket integration, secure messaging, and a dynamic UI.",
+      `Chatverse is a MERN-based real-time chat application that ensures instant communication through robust WebSocket integration, secure messaging, and a dynamic user interface.`,
     technologies: ["MERN", "Tailwind", "Daisy UI", "Socket.io"],
   },
   {
@@ -56,7 +57,7 @@ export const PROJECTS = [
     image: portfolio,
     link: "https://github.com/veeraj2404/portfolio",
     description:
-      "A personal portfolio website showcasing experience, projects, skills, and contact information.",
+      `A personal portfolio website showcasing experience, projects, skills, and contact information.`,
     technologies: ["React", "Tailwind", "Framer Motion"],
   },
   {
@@ -65,10 +66,7 @@ export const PROJECTS = [
     image: geminiai,
     link: "https://github.com/veeraj2404/gemini-ai",
     description:
-      `Developed a Gemini AI API Integration Project with
-      a seamless React.js frontend and Node.js backend
-      that processes user-provided text/image inputs to
-      generate AI-driven insights.`,
+      `Developed a Gemini AI API Integration Project with a seamless React.js frontend and a Node.js backend that processes user-provided text and image inputs to generate AI-driven insights.`,
     technologies: ["React", "Bootstrap", "Node.js", "Gemini_AI_API"],
   },
   {
@@ -77,10 +75,7 @@ export const PROJECTS = [
     image: foreverclone,
     link: "https://github.com/veeraj2404/Ecommerce-app",
     description:
-      `The e-commerce application provides a complete shopping experience
-       with product browsing, cart management, and secure payment processing.
-        The backend features an admin dashboard to manage orders, products,
-         users, and advanced reporting tools.`,
+      `An e-commerce application offering a complete shopping experience, including product browsing, cart management, and secure payment processing. The admin dashboard includes features for managing orders and products.`,
     technologies: ["React", "Tailwind", "Node.js", "mongoDB"],
   },
   {
@@ -89,11 +84,7 @@ export const PROJECTS = [
     image: csvmanager,
     link: "https://github.com/veeraj2404/csv_manager",
     description:
-      `Developed an application for importing, editing, and
-      exporting CSV files with a modular design and an
-      intuitive React-based frontend for seamless user
-      interaction.
-      `,
+      `Built an application for importing, editing, and exporting CSV files with a modular design and an intuitive React-based frontend for seamless user interaction.`,
     technologies: ["React", "Bootstrap", "mongoDB", "Node.js"],
   },
   // {
